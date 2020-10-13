@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `Vadim`,
     author: {
-      name: `@ry_zou`,
+      name: `Vadim`,
       summary: `web dev`,
     },
     description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
@@ -24,7 +24,7 @@ module.exports = {
      {
        resolve: `gatsby-plugin-plausible`,
        options: {
-         domain: `aquil.io`,
+         domain: `vadimyakovlev.com`,
        },
      },
     {
