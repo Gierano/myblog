@@ -14,15 +14,6 @@ module.exports = {
     defaultImage: "images/bg.jpeg",
   },
   plugins: [
-    // Load webfonts using Web Font Loader
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Droid Serif', 'Droid Serif']
-        }
-      }
-    }
     // Accepts all options defined by `babel-plugin-emotion` plugin.
     { 
       resolve: `gatsby-plugin-emotion`,
